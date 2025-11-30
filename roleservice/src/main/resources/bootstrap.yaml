@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: role-service
+
+  config:
+    import: optional:configserver:http://localhost:8888
+    fail-fast: true
+
+  profiles:
+    active: default

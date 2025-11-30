@@ -1,0 +1,3 @@
+myapp:
+  message: "Hello from Role Service Config via GitHub"
+  version: "1.0"
